@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Peso en otro planeta</title>
+  </head>
+  <body>
+    <h1>Tu Peso en otro planeta</h1>
+    <script>
+      var g_tierra = 9.8;
+      var g_marte = 3.7;
+      var peso = 57;
+      var peso_final = (peso * g_marte) / g_tierra;
+      peso_final = parseInt(peso_final);
+      document.write("Tu peso en marte es " + peso_final);
+
+    </script>
+  </body>
+</html>
